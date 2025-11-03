@@ -28,8 +28,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Joshyvibe"
+          git config user.email "akpulonujoseph@gmail.com"
           git add .
           # Commits changes, or echoes a message if nothing was changed
           git commit -m "Refreshed data and logs: $(date)" || echo "No changes to commit" 
